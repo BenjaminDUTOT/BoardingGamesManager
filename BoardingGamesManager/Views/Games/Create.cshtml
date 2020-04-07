@@ -1,0 +1,73 @@
+﻿@model BoardingGamesManager.Models.Game
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Game</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MinDuration" class="control-label"></label>
+                <input asp-for="MinDuration" class="form-control" />
+                <span asp-validation-for="MinDuration" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="OurDuration" class="control-label"></label>
+                <input asp-for="OurDuration" class="form-control" />
+                <span asp-validation-for="OurDuration" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MaxDuration" class="control-label"></label>
+                <input asp-for="MaxDuration" class="form-control" />
+                <span asp-validation-for="MaxDuration" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MinAge" class="control-label"></label>
+                <input asp-for="MinAge" class="form-control" />
+                <span asp-validation-for="MinAge" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MinPlayer" class="control-label"></label>
+                <input asp-for="MinPlayer" class="form-control" />
+                <span asp-validation-for="MinPlayer" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BestNumberPlayer" class="control-label"></label>
+                <input asp-for="BestNumberPlayer" class="form-control" />
+                <span asp-validation-for="BestNumberPlayer" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Maxplayer" class="control-label"></label>
+                <input asp-for="Maxplayer" class="form-control" />
+                <span asp-validation-for="Maxplayer" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Editeur" class="control-label"></label>
+                <input asp-for="Editeur" class="form-control" />
+                <span asp-validation-for="Editeur" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
