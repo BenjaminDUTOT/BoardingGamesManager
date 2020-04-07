@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoardingGamesManager", "BoardingGamesManager\BoardingGamesManager.csproj", "{474BFA39-057B-4930-AA15-98CCF38B26AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{474BFA39-057B-4930-AA15-98CCF38B26AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{474BFA39-057B-4930-AA15-98CCF38B26AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{474BFA39-057B-4930-AA15-98CCF38B26AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{474BFA39-057B-4930-AA15-98CCF38B26AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A9C6A1D-7A9B-4F81-B674-F36FF65E0C40}
+	EndGlobalSection
+EndGlobal
